@@ -59,22 +59,31 @@ if (time >= 6 && time<=12){
 }
 
  */
-let puesto = "1"
+let shoppingCart = {
 
-if (puesto == 1) {
-    console.log("Enero");
-}else if (puesto == 2) {
-     console.log("Silver medal");
-}else if (puesto == 3){
-    console.log("Bronze");
-}else {
-console.log("Try it again!");
+one: {
+  nombre: "Nike Air Max 270 React",
+  color: "Blanco / Negro / Azul",
+  talla: 10,
+  precio: 139.99
+},
+two: {
+    nombre: "Nike Air Zoom Pegasus 38",
+    color: "Gris / Blanco / Rosa",
+    talla: 9.5,
+    precio: 119.99
+  },
+three: {
+    nombre: "Nike LeBron 18",
+    color: "Negro / Oro",
+    talla: 11,
+    precio: 199.99
+  },
+four: {
+    nombre: "Nike Metcon 7",
+    color: "Negro / Gris",
+    talla: 10.5,
+    precio: 129.99
+  }
 }
-
-D E F - Invierno
-M A M - Primavera
-J J A - Verano
-Resto Otoño
-
-Enero 
-Febrero
+console.log(shoppingCart);
